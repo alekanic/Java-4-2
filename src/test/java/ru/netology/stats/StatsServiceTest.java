@@ -7,7 +7,7 @@ public class StatsServiceTest {
 
     @Test
 
-    public void sumOfSale() {
+    public void sum() {
         StatsService service = new StatsService();
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 180;
@@ -17,7 +17,7 @@ public class StatsServiceTest {
 
     @Test
 
-    public void averageOfSale() {
+    public void average() {
         StatsService service = new StatsService();
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 15;
@@ -27,7 +27,7 @@ public class StatsServiceTest {
 
     @Test
 
-    public void maxSale() {
+    public void max() {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 8;
@@ -38,7 +38,7 @@ public class StatsServiceTest {
 
     @Test
 
-    public void minSale() {
+    public void min() {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 9;
@@ -49,7 +49,7 @@ public class StatsServiceTest {
 
     @Test
 
-    public void belowTheAverag() {
+    public void belowTheAverageOfSale() {
         StatsService service = new StatsService();
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 5;
@@ -60,7 +60,7 @@ public class StatsServiceTest {
 
     @Test
 
-    public void aboveTheAverag() {
+    public void aboveTheAverageOfSale() {
         StatsService service = new StatsService();
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 5;
